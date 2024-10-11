@@ -1,0 +1,179 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+h1 {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.book-manager {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+/* Table Styles */
+.members-table {
+  margin-top: 20px;
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 600px;
+}
+
+.members-table th,
+.members-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.members-table th {
+  background-color: #007bff;
+  color: white;
+}
+
+.members-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.add-book-form {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.input-book {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 60%;
+  margin-right: 10px;
+}
+
+.add-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.add-button:hover {
+  background-color: #000000;
+}
+
+.theme-toggle-button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  background-color: #234fc8;
+  color: white;
+  cursor: pointer;
+}
+
+.theme-toggle-button:hover {
+  background-color: #000000;
+}
+
+.book-list {
+  margin-top: 20px;
+}
+
+.book-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #0f0f0f;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s;
+}
+
+.book-item:hover {
+  background-color: #f1f1f1;
+}
+
+.remove-button {
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #234fc8;
+  color: white;
+  cursor: pointer;
+}
+
+.remove-button:hover {
+  background-color: #234fc8;
+}
+
+/* Dark Theme Styles */
+.dark {
+  background-color: #333;
+  color: #234fc8;
+}
+
+.dark .book-manager {
+  background-color: #444;
+  color: #0c0c0c;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.dark .input-book,
+.dark .add-button,
+.dark .remove-button {
+  background-color: #555;
+  border: 1px solid #666;
+  color: #fff;
+}
+
+.dark .add-button:hover,
+.dark .remove-button:hover {
+  background-color: #777;
+}
+
+.components-table {
+  margin-top: 20px;
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 600px;
+}
+
+.components-table th,
+.components-table td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+.components-table th {
+  background-color: #007bff;
+  color: white;
+}
+
+.components-table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
